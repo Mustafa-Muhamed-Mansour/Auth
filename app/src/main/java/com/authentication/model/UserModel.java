@@ -6,19 +6,19 @@ public class UserModel
     String userImage;
     String userName;
     String userEmail;
-    String userPHone;
+    String userPhone;
 
     public UserModel()
     {
     }
 
-    public UserModel(String userID, String userImage, String userName, String userEmail, String userPHone)
+    public UserModel(String userID, String userImage, String userName, String userEmail, String userPhone)
     {
         this.userID = userID;
         this.userImage = userImage;
         this.userName = userName;
         this.userEmail = userEmail;
-        this.userPHone = userPHone;
+        this.userPhone = userPhone;
     }
 
     public String getUserID() {
@@ -37,7 +37,7 @@ public class UserModel
         return userEmail;
     }
 
-    public String getUserPHone() {
-        return userPHone;
+    public String getUserPhone() {
+        return userPhone;
     }
 }

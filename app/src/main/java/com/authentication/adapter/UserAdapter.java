@@ -42,7 +42,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserViewHolder
        UserModel model = userModels.get(position);
        holder.textUserName.setText(model.getUserName());
        holder.textUserEmail.setText(model.getUserEmail());
-       holder.textUserPhone.setText(model.getUserPHone());
+       holder.textUserPhone.setText(model.getUserPhone());
        Glide
                .with(holder.itemView.getContext())
                .load(model.getUserImage())
